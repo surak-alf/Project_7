@@ -1,0 +1,10 @@
+INFO:root:Selected numerical features: Index(['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult'], dtype='object')
+INFO:root:Correlation matrix computed.
+INFO:root:Correlation heatmap plotted successfully.
+INFO:root:Selected numerical features: Index(['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult'], dtype='object')
+INFO:root:Correlation matrix computed.
+INFO:root:Correlation heatmap plotted successfully.
+INFO:root:Selected numerical features: Index(['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult'], dtype='object')
+INFO:root:Boxplots plotted successfully.
+INFO:root:Selected numerical features: Index(['CountryCode', 'Amount', 'Value', 'PricingStrategy', 'FraudResult'], dtype='object')
+INFO:root:Histograms plotted successfully.
