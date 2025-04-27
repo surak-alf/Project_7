@@ -12,7 +12,7 @@ def plot_numerical_features_histograms(df, log_file=None):
   numerical_columns = df.select_dtypes(include=['float64', 'int64']).columns
   logging.info(f"Selected numerical features: {numerical_columns}")
 
-  plt.figure(figsize=(15, 20))  # Set figure size explicitly
+  plt.figure(figsize=(15, 20))  
   df[numerical_columns].hist(bins=30)
   plt.suptitle('Distribution of Numerical Features')
   plt.show()
@@ -43,8 +43,8 @@ def plot_numerical_features_boxplots(df, log_file=None):
   logging.info(f"Selected numerical features: {numerical_columns}")
 
   n_plots = len(numerical_columns)
-  rows, cols = 3, 3  # Adjust rows and cols based on number of features
-  fig, axes = plt.subplots(rows, cols, figsize=(15, 10))  # Set figure size explicitly
+  rows, cols = 3, 3  
+  fig, axes = plt.subplots(rows, cols, figsize=(15, 10))  
 
   for i, col in enumerate(numerical_columns):
     ax = axes.flat[i]
